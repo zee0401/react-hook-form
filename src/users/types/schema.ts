@@ -10,3 +10,5 @@ export const schema = z.object({
       message: "email not valid",
     }),
 });
+
+export type Schema = z.infer<typeof schema>;
