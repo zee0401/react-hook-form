@@ -1,7 +1,12 @@
 import "./App.css";
+import { Users } from "./users/components/Users";
 
 function App() {
-  return <div>hello material</div>;
+  return (
+    <div>
+      <Users />
+    </div>
+  );
 }
 
 export default App;
