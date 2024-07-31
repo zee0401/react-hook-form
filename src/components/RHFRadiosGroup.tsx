@@ -6,6 +6,7 @@ import {
   RadioGroup,
 } from "@mui/material";
 import { Controller, FieldValues, Path, useFormContext } from "react-hook-form";
+import { Option } from "../types/option";
 
 type Props<T extends FieldValues> = {
   name: Path<T>;
